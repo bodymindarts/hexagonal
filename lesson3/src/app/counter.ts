@@ -1,3 +1,5 @@
+// use cases
+
 import { Counter } from "../domain"
 import { CounterDb } from "../services/db"
 
@@ -15,6 +17,32 @@ export const incrementCounter = (increment: number) => {
   const newCounter = counter.increment(increment)
 
   db.persist(newCounter)
-  // ORM mongoose
-  // newCounter.save()
 }
+
+// primitive type (number)
+// Domain type Counter
+// persistence reperentation
+//
+
+
+// IO representation
+// domain representation
+// persistence representation
+
+
+// interface centric modeling
+// behaviour centric modeling
+// persistence / data / schema centric modeling
+
+
+// continuous modeling
+// requirement
+// design interface
+// hypothesis (of implementation)
+// try implementation
+// => fail
+// => notice its not trivial?
+//  => domain centric modeling => new hypothesis
+// => works but bad interface
+//   => model interface and try again
+

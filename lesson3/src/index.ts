@@ -1,3 +1,5 @@
+/// IO layer (incoming adapter)
+
 import express from 'express'
 import * as App from "./app"
 

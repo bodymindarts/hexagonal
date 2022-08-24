@@ -1,3 +1,6 @@
+// Persistence Adapter
+
+
 import fs from 'fs'
 
 import { Counter } from "../../src/domain"
