@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "outDir": "build",
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "composite": true
+  },
+  "compileOnSave": true
+}
